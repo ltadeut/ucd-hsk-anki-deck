@@ -1,0 +1,5 @@
+.DS_Store
+.mise.toml
+*.apkg
+*.pyc
+laowai/__pycache__/*

@@ -1,0 +1,487 @@
+[
+    {
+        "word": "人",
+        "meaning": "person",
+        "pinyin": "rén",
+	"image": "images/person.png"
+    },
+    {
+        "word": "口",
+        "meaning": "mouth",
+        "pinyin": "kǒu",
+	"image": "images/mouth.png"
+    },
+    {
+        "word": "日",
+        "meaning": "sun",
+        "pinyin": "rì",
+	"image": "images/sun.png"
+    },
+    {
+        "word": "月",
+        "meaning": "moon",
+        "pinyin": "yuè",
+	"image": "images/moon.png"
+    },
+    {
+        "word": "目",
+        "meaning": "eye",
+        "pinyin": "mù",
+	"image": "images/eye.jpg"
+    },
+    {
+        "word": "木",
+        "meaning": "tree",
+        "pinyin": "mù",
+	"image": "images/tree.jpg"
+    },
+    {
+        "word": "天",
+        "meaning": "sky",
+        "pinyin": "tiān",
+	"image": "images/sky.jpg"
+    },
+    {
+        "word": "水",
+        "meaning": "water",
+        "pinyin": "shuǐ",
+	"image": "images/water.jpg"
+    },
+    {
+        "word": "山",
+        "meaning": "mountain",
+        "pinyin": "shān",
+	"image": "images/mountain.jpg"
+    },
+    {
+        "word": "火",
+        "meaning": "fire",
+        "pinyin": "huǒ",
+	"image": "images/fire.jpg"
+    },
+    {
+        "word": "田",
+        "meaning": "rice field",
+        "pinyin": "tián",
+	"image": "images/rice_field.jpg"
+    },
+    {
+        "word": "从",
+        "meaning": "follow",
+        "pinyin": "cóng",
+	"image": "images/follow.png"
+    },
+    {
+        "word": "林",
+        "meaning": "woods",
+        "pinyin": "lín",
+	"image": "images/woods.jpg"
+    },
+    {
+        "word": "森",
+        "meaning": "forest",
+        "pinyin": "sēn",
+	"image": "images/forest.png"
+    },
+    {
+        "word": "囚",
+        "meaning": "prisoner",
+        "pinyin": "qiú",
+	"image": "images/prisoner.png"
+    },
+    {
+        "word": "焚",
+        "meaning": "burn",
+        "pinyin": "fén",
+	"image": "images/burn.jpg"
+    },
+    {
+        "word": "明",
+        "meaning": "bright",
+        "pinyin": "míng",
+	"image": "images/bright.jpg"
+    },
+    {
+        "word": "女",
+        "meaning": "female",
+        "pinyin": "nǚ",
+	"image": "images/female.png"
+    },
+    {
+        "word": "子",
+        "meaning": "child",
+        "pinyin": "zi",
+	"image": "images/child.jpg"
+    },
+    {
+        "word": "北京",
+        "meaning": "Beijing",
+        "pinyin": "běijīng",
+	"image": "images/beijing.jpg"
+    },
+    {
+        "word": "西安",
+        "meaning": "Xian",
+        "pinyin": "xīān",
+	"image": "images/xian.jpg"
+    },
+    {
+        "word": "上海",
+        "meaning": "Shanghai",
+        "pinyin": "shànghǎi",
+	"image": "images/shanghai.jpg"
+    },
+    {
+        "word": "苏州",
+        "meaning": "Suzhou (city in the Jiangsu province)",
+        "pinyin": "sūzhōu",
+	"image": "images/suzhou.jpg"
+    },
+    {
+        "word": "杭州",
+        "meaning": "Hangzhou（city）",
+        "pinyin": "hángzhōu",
+	"image": "images/hangzhou.jpg"
+
+    },
+    {
+        "word": "熊猫",
+        "meaning": "Panda",
+        "pinyin": "xióngmāo",
+	"image": "images/panda.jpg"
+    },
+    {
+        "word": "你",
+        "meaning": "you",
+        "pinyin": "nǐ",
+	"image": "images/you.webp"
+    },
+    {
+        "word": "好",
+        "meaning": "good",
+        "pinyin": "hǎo",
+	"image": "images/good.png"
+    },
+    {
+        "word": "你好",
+        "meaning": "hello",
+        "pinyin": "nǐhǎo"
+    },
+    {
+        "word": "您好",
+        "meaning": "hello (polite)",
+        "pinyin": "nínhǎo",
+	"image": "images/hello_polite.png"
+    },
+    {
+        "word": "你们好",
+        "meaning": "hello (plural, towards a group of people)",
+        "pinyin": "nǐmen hǎo",
+	"image": "images/hello_group.png"
+    },
+    {
+        "word": "再见",
+        "meaning": "goodbye",
+        "pinyin": "zàijiàn",
+	"image": "images/goodbye.png"
+    },
+    {
+        "word": "欢迎",
+        "meaning": "Welcome",
+        "pinyin": "huānyíng",
+	"image": "images/welcome.png"
+    },
+    {
+        "word": "谢谢",
+        "meaning": "Thanks",
+        "pinyin": "xièxie"
+    },
+    {
+        "word": "谢谢你",
+        "meaning": "Thank you",
+        "pinyin": "xièxie nǐ"
+    },
+    {
+        "word": "不谢",
+        "meaning": "It's fine (answer to thank you)",
+        "pinyin": "búxiè"
+    },
+    {
+        "word": "不用谢",
+        "meaning": "You're welcome",
+        "pinyin": "búyòngxiè"
+    },
+    {
+        "word": "不客气",
+        "meaning": "You're welcome",
+        "pinyin": "bú kèqi"
+    },
+    {
+        "word": "对不起",
+        "meaning": "Sorry",
+        "pinyin": "duìbuqǐ",
+	"image": "images/sorry.png"
+    },
+    {
+        "word": "没关系",
+        "meaning": "It's OK, it doesn't matter",
+        "pinyin": "méiguānxi"
+    },
+    {
+        "word": "没事儿",
+        "meaning": "It's OK",
+        "pinyin": "méishìer"
+    },
+    {
+        "word": "我",
+        "meaning": "I",
+        "pinyin": "wǒ"
+    },
+    {
+        "word": "很",
+        "meaning": "Very",
+        "pinyin": "hěn"
+    },
+    {
+        "word": "不",
+        "meaning": "No, not",
+        "pinyin": "bù",
+	"image": "images/no.png"
+    },
+    {
+        "word": "忙",
+        "meaning": "Busy",
+        "pinyin": "máng",
+	"image": "images/busy.png"
+    },
+    {
+        "word": "累",
+        "meaning": "Tired",
+        "pinyin": "lěi",
+	"image": "images/tired.png"
+    },
+    {
+        "word": "吗",
+        "meaning": "Particle indicating a question",
+        "pinyin": "mǎ"
+    },
+    {
+        "word": "也",
+        "meaning": "Also",
+        "pinyin": "yě"
+    },
+    {
+        "word": "你呢",
+        "meaning": "How about you?",
+        "pinyin": "nǐ ne"
+    },
+    {
+        "word": "他",
+        "meaning": "He, him",
+        "pinyin": "tā"
+    },
+    {
+        "word": "她",
+        "meaning": "She, her",
+        "pinyin": "tā"
+    },
+    {
+        "word": "是",
+        "meaning": "To be, is",
+        "pinyin": "shì"
+    },
+    {
+        "word": "老师",
+        "meaning": "Teacher",
+        "pinyin": "lǎoshī",
+	"image": "images/teacher.png"
+    },
+    {
+        "word": "学生",
+        "meaning": "Student",
+        "pinyin": "xuésheng",
+	"image": "images/student.png"
+    },
+    {
+        "word": "叫",
+        "meaning": "Call (how something is called)",
+        "pinyin": "jiào"
+    },
+    {
+        "word": "什么",
+        "meaning": "What",
+        "pinyin": "shénme"
+    },
+    {
+        "word": "名字",
+        "meaning": "Name",
+        "pinyin": "míngzi"
+    },
+    {
+        "word": "姓",
+        "meaning": "Surname",
+        "pinyin": "xìng"
+    },
+    {
+        "word": "先生",
+        "meaning": "Sir",
+        "pinyin": "xiānsheng"
+    },
+    {
+        "word": "女士",
+        "meaning": "Lady",
+        "pinyin": "nǚshì"
+    },
+    {
+        "word": "早上好",
+        "meaning": "Good (early) morning",
+        "pinyin": "zǎoshanghǎo"
+    },
+    {
+        "word": "上午好",
+        "meaning": "Good morning",
+        "pinyin": "shàngwǔhǎo"
+    },
+    {
+        "word": "中午好",
+        "meaning": "Good noon",
+        "pinyin": "zhōngwǔhǎo"
+    },
+    {
+        "word": "下午好",
+        "meaning": "Good afternoon",
+        "pinyin": "xiàwǔhǎo"
+    },
+    {
+        "word": "晚上好",
+        "meaning": "Good evening",
+        "pinyin": "wǎnshanghǎo"
+    },
+    {
+        "word": "晚安",
+        "meaning": "Good night",
+        "pinyin": "wǎnān"
+    },
+    {
+        "word": "最近",
+        "meaning": "Lately",
+        "pinyin": "Zuìjìn"
+    },
+    {
+        "word": "今天",
+        "meaning": "Today",
+        "pinyin": "jīntiān"
+    },
+    {
+        "word": "喜欢",
+        "meaning": "To like",
+        "pinyin": "xǐhuan"
+    },
+    {
+        "word": "火锅",
+        "meaning": "Hotpot",
+        "pinyin": "huǒguō",
+	"image": "images/hotpot.png"
+    },
+    {
+        "word": "中国",
+        "meaning": "China",
+        "pinyin": "zhōngguó",
+	"image": "images/china_flag.png"
+    },
+    {
+        "word": "西班牙",
+        "meaning": "Spain",
+        "pinyin": "xībānyá",
+	"image": "images/spain_flag.png"
+    },
+    {
+        "word": "瑞士",
+        "meaning": "Switzerland",
+        "pinyin": "ruìshì",
+	"image": "images/swiss_flag.png"
+    },
+    {
+        "word": "爱尔兰",
+        "meaning": "Ireland",
+        "pinyin": "àiěrlán",
+	"image": "images/ireland_flag.png"
+    },
+    {
+        "word": "意大利",
+        "meaning": "Italy",
+        "pinyin": "yìdàlì",
+	"image": "images/italy_flag.png"
+    },
+    {
+        "word": "墨西哥",
+        "meaning": "Mexico",
+        "pinyin": "mòxīgē",
+	"image": "images/mexico_flag.png"
+    },
+    {
+        "word": "巴西",
+        "meaning": "Brazil",
+        "pinyin": "bāxī",
+	"image": "images/brazil_flag.png"
+    },
+    {
+        "word": "匈牙利",
+        "meaning": "Hungary",
+        "pinyin": "xiōngyálì",
+	"image": "images/hungary_flag.png"
+    },
+    {
+        "word": "摩洛哥",
+        "meaning": "Morocco",
+        "pinyin": "móluògē",
+	"image": "images/morocco_flag.png"
+    },
+    {
+        "word": "美国",
+        "meaning": "United States",
+        "pinyin": "měiguó",
+	"image": "images/usa_flag.png"
+    },
+    {
+        "word": "英国",
+        "meaning": "U.K.",
+        "pinyin": "yīngguó",
+	"image": "images/uk_flag.png"
+    },
+    {
+        "word": "法国",
+        "meaning": "France",
+        "pinyin": "fǎguó",
+	"image": "images/france_flag.png"
+    },
+    {
+        "word": "德国",
+        "meaning": "Germany",
+        "pinyin": "déguó",
+	"image": "images/germany_flag.png"
+    },
+    {
+        "word": "韩国",
+        "meaning": "Korea",
+        "pinyin": "hánguó",
+	"image": "images/korea_flag.png"
+    },
+    {
+        "word": "加拿大",
+        "meaning": "Canada",
+        "pinyin": "jiānádà",
+	"image": "images/canada_flag.png"
+    },
+    {
+        "word": "日本",
+        "meaning": "Japan",
+        "pinyin": "rìběn",
+	"image": "images/japan_flag.png"
+    },
+    {
+        "word": "你好吗",
+        "meaning": "How are you?",
+        "pinyin": "nǐhǎo mǎ"
+    }
+]
