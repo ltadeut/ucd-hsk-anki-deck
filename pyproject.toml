@@ -20,3 +20,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 make-deck = "ucdhsk.main:make_deck"
 check-images = "ucdhsk.main:check_images"
+pinyinfy = "ucdhsk.main:pinyinfy"
