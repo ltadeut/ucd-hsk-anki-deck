@@ -19,8 +19,8 @@ if __name__ == '__main__':
 
     for entry in data:
         word = entry['word']
-        
-        audio_filename = f"{word}.mp3"
+        identifier = entry['id'] 
+        audio_filename = f"{identifier}.mp3"
         audio_filepath = f"{audio_directory}/{audio_filename}"
 
         if os.path.isfile(audio_filepath):
