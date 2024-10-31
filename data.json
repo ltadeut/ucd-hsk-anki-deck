@@ -6,6 +6,12 @@
 	"image": "images/person.png"
     },
     {
+        "word": "心",
+        "meaning": "Heart",
+        "pinyin": "",
+	"image": ""
+    },
+    {
         "word": "口",
         "meaning": "mouth",
         "pinyin": "kǒu",
@@ -108,10 +114,90 @@
 	"image": "images/female.png"
     },
     {
+        "word": "男",
+        "meaning": "male",
+        "pinyin": "nán"
+    },
+    {
         "word": "子",
         "meaning": "child",
         "pinyin": "zi",
 	"image": "images/child.jpg"
+    },
+    {
+        "word": "茶",
+        "meaning": "Tea",
+        "pinyin": ""
+    },
+    {
+        "word": "可乐",
+        "meaning": "Cola (as in Coke)",
+        "pinyin": ""
+    },
+    {
+        "word": "咖啡",
+        "meaning": "Coffee",
+        "pinyin": ""
+    },
+    {
+        "word": "酒",
+        "meaning": "Alcohol",
+        "pinyin": ""
+    },
+    {
+        "word": "芒果",
+        "meaning": "Mango",
+        "pinyin": ""
+    },
+    {
+        "word": "一",
+        "meaning": "One",
+        "pinyin": ""
+    },
+    {
+        "word": "二",
+        "meaning": "Two",
+        "pinyin": ""
+    },
+    {
+        "word": "三",
+        "meaning": "Three",
+        "pinyin": ""
+    },
+    {
+        "word": "四",
+        "meaning": "Four",
+        "pinyin": ""
+    },
+    {
+        "word": "五",
+        "meaning": "Five",
+        "pinyin": ""
+    },
+    {
+        "word": "六",
+        "meaning": "Six",
+        "pinyin": ""
+    },
+    {
+        "word": "七",
+        "meaning": "Seven",
+        "pinyin": ""
+    },
+    {
+        "word": "八",
+        "meaning": "Eight",
+        "pinyin": ""
+    },
+    {
+        "word": "九",
+        "meaning": "Nine",
+        "pinyin": ""
+    },
+    {
+        "word": "十",
+        "meaning": "Ten",
+        "pinyin": ""
     },
     {
         "word": "北京",
@@ -483,5 +569,291 @@
         "word": "你好吗",
         "meaning": "How are you?",
         "pinyin": "nǐhǎo mǎ"
-    }
+    },
+    {
+        "word": "小",
+        "meaning": "Small",
+        "pinyin": ""
+    },
+    {
+        "word": "我今天很忙，也很累",
+        "meaning": "I'm very busy today, I'm also very tired.",
+        "pinyin": ""
+    },
+    {
+        "word": "你叫什么名字？我叫李月。",
+        "meaning": "What is your name? My name is Lǐ Yuè.",
+        "pinyin": ""
+    },
+    {
+        "word": "你姓什么？我姓李。",
+        "meaning": "What is your surname? My surname is Lǐ",
+        "pinyin": ""
+    },
+    {
+        "word": "她叫Kitty吗？他不叫Kitty。他叫Kelly。",
+        "meaning": "Is her name Kitty? No, her name isn't Kitty. Her name is Kelly.",
+        "pinyin": ""
+    },
+    {
+        "word": "他不是英国人。他是美国人。",
+        "meaning": "He isn't from the UK. He's from the USA.",
+        "pinyin": ""
+    },
+    {
+        "word": "她是学生吗？她不是学生，她是老师。",
+        "meaning": "Is she a student? No, she isn't. She's a teacher.",
+        "pinyin": ""
+    },
+    {
+        "word": "我喜欢作家鲁迅，我不喜欢下雨。",
+        "meaning": "I like the author Lu Xun, I don't like rain.",
+        "pinyin": ""
+    },
+    {
+        "word": "的",
+        "meaning": "Particle indicating possession.",
+        "pinyin": ""
+    },
+    {
+        "word": "我喜欢你的衣服。",
+        "meaning": "I like your clothes.",
+        "pinyin": ""
+    },
+    {
+        "word": "歌",
+        "meaning": "Song",
+        "pinyin": ""
+    },
+    {
+        "word": "她是谁？她是妹妹。",
+        "meaning": "Who is she? She's Méi Méi (nickname for Tailor Swift)",
+        "pinyin": ""
+    },
+    {
+        "word": "爸爸",
+        "meaning": "Dad",
+        "pinyin": ""
+    },
+    {
+        "word": "妈妈",
+        "meaning": "Mom",
+        "pinyin": ""
+    },
+    {
+        "word": "哥哥",
+        "meaning": "Elder brother",
+        "pinyin": ""
+    },
+    {
+        "word": "姐姐",
+        "meaning": "Elder sister",
+        "pinyin": ""
+    },
+    {
+        "word": "弟弟",
+        "meaning": "Younger brother",
+        "pinyin": ""
+    },
+    {
+        "word": "妹妹",
+        "meaning": "Younger sister",
+        "pinyin": ""
+    },
+    {
+        "word": "奶奶",
+        "meaning": "Grandma (on dad's side)",
+        "pinyin": ""
+    },
+    {
+        "word": "爷爷",
+        "meaning": "Grandpa (on dad's side)",
+        "pinyin": ""
+    },
+    {
+        "word": "外公",
+        "meaning": "Grandpa (on mom's side)",
+        "pinyin": ""
+    },
+    {
+        "word": "外婆",
+        "meaning": "Grandma (on mom's side)",
+        "pinyin": ""
+    },
+    {
+        "word": "儿子",
+        "meaning": "Son",
+        "pinyin": "érzi"
+    },
+    {
+        "word": "女儿",
+        "meaning": "Daughter",
+        "pinyin": "nǚ'ér"
+    },
+    {
+        "word": "家人",
+        "meaning": "Family",
+        "pinyin": "jiã rén"
+    },
+    {
+        "word": "同事",
+        "meaning": "Workmate",
+        "pinyin": "tóngshì"
+    },
+    {
+        "word": "同学",
+        "meaning": "Classmate",
+        "pinyin": "tóngxué"
+    },
+    {
+        "word": "朋友",
+        "meaning": "Friend",
+        "pinyin": "péngyǒu"
+    },
+    {
+        "word": "男朋友",
+        "meaning": "Boyfriend",
+        "pinyin": "nánpéngyǒu"
+    },
+    {
+        "word": "女朋友",
+        "meaning": "Girlfriend",
+        "pinyin": "nǚpéngyǒu"
+    },
+    {
+        "word": "他是谁？他是我(的)同学。",
+        "meaning": "Who is he? He's my classmate.",
+        "pinyin": ""
+    },
+    {
+        "word": "中文",
+        "meaning": "Chinese language (written)",
+        "pinyin": ""
+    },
+    {
+        "word": "汉语",
+        "meaning": "Chinese language (spoken)",
+        "pinyin": "hán yǔ"
+    },
+    {
+        "word": "普通话",
+        "meaning": "Mandarin",
+        "pinyin": ""
+    },
+    {
+        "word": "她是我（的）中文老师。",
+        "meaning": "She's my Chinese teacher",
+        "pinyin": ""
+    },
+    {
+        "word": "英语",
+        "meaning": "English (language)",
+        "pinyin": "yīng yǔ"
+    },
+    {
+        "word": "德语",
+        "meaning": "German (language)",
+        "pinyin": "dé yǔ"
+    },
+    {
+        "word": "法语",
+        "meaning": "French (language)",
+        "pinyin": "法语"
+    },
+    {
+        "word": "爱尔兰语",
+        "meaning": "Irish (language)",
+        "pinyin": "àiěrlán yǔ"
+    },
+    {
+        "word": "西班牙语",
+        "meaning": "Spanish (language)",
+        "pinyin": "xībānyá yǔ"
+    },
+    {
+        "word": "意大利",
+        "meaning": "Italian (language)",
+        "pinyin": "yìdàlì yǔ"
+    },
+    {
+        "word": "葡萄牙语",
+        "meaning": "Portuguese (language)",
+        "pinyin": "pútáoyá yǔ"
+    },
+    {
+        "word": "阿拉伯语",
+        "meaning": "Arabic (language)",
+        "pinyin": "ālābó yǔ"
+    },
+    {
+        "word": "书",
+        "meaning": "Book",
+        "pinyin": "shū"
+    },
+    {
+        "word": "狗",
+        "meaning": "Dog",
+        "pinyin": "gǒu"
+    },
+    {
+        "word": "水果",
+        "meaning": "Fruit",
+        "pinyin": "shuǐguǒ"
+    },
+    {
+        "word": "哪",
+        "meaning": "Which",
+        "pinyin": "nǎ"
+    },
+    {
+        "word": "本",
+        "meaning": "Measure word for books",
+        "pinyin": ""
+    },
+    {
+        "word": "个",
+        "meaning": "General measure word",
+        "pinyin": ""
+    },
+    {
+        "word": "种",
+        "meaning": "Kind (used in conjunction with 哪)",
+        "pinyin": ""
+    },
+    {
+        "word": "你喜欢哪种水果？",
+        "meaning": "Which kind of fruit do you like?",
+        "pinyin": ""
+    },
+    {
+        "word": "你喜欢哪种书？",
+        "meaning": "Which kind of book do you like?",
+        "pinyin": ""
+    },
+    {
+        "word": "你喜欢哪本书？",
+        "meaning": "Which book do you like?",
+        "pinyin": ""
+    },
+    {
+        "word": "你喜欢那个人？",
+        "meaning": "Which person do you like?",
+        "pinyin": ""
+    },
+    {
+        "word": "演员",
+        "meaning": "Actor",
+        "pinyin": ""
+    },
+    {
+        "word": "吃",
+        "meaning": "Eat",
+        "pinyin": ""
+    },
+    {
+        "word": "你好朋友喜欢吃什么？",
+        "meaning": "What does your friend like to eat?",
+        "pinyin": ""
+    },
+
 ]
