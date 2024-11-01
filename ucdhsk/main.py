@@ -129,7 +129,7 @@ def make_deck():
         css=CSS
     )
 
-    deck = genanki.Deck(1337, name="UCD HSK 1.1 Vocab - V1.0.1")
+    deck = genanki.Deck(1337, name="UCD HSK 1.1 Vocab V1.0.1")
 
     # Generate the notes
     with open(data_filepath) as f:
