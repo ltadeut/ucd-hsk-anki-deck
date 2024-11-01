@@ -32,7 +32,7 @@ hr {
 }
 
 .card {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
