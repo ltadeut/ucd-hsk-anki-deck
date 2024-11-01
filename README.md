@@ -24,7 +24,7 @@ Most cards have an image included to help associate the character with the meani
 
 ## How do I get the Anki deck?
 
-Head to the [releases page](https://github.com/ltadeut/ucd-hsk-anki-deck/releases) and look for the latest version.
+Head to the [releases page](https://github.com/ltadeut/ucd-hsk-anki-deck/releases/latest) to get the latest version.
 
 You'll want to download the file ending in `.apkg`. That's the Anki package containing the deck.
 
