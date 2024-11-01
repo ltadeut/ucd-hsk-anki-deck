@@ -1,5 +1,26 @@
 [
     {
+        "hanzi": "狗",
+        "meaning": "Dog",
+        "pinyin": "gǒu",
+        "id": 10147,
+        "image": "dog.png"
+    },
+    {
+        "hanzi": "水果",
+        "meaning": "Fruit",
+        "pinyin": "shuǐguǒ",
+        "id": 10148,
+        "image": "fruit.png"
+    },
+    {
+        "hanzi": "衣服",
+        "meaning": "Clothes",
+        "pinyin": "yīfú",
+        "id": 10164,
+        "image": "clothes.png"
+    },
+    {
         "hanzi": "人",
         "meaning": "person",
         "pinyin": "rén",
@@ -1055,27 +1076,6 @@
         "pinyin": "shū",
         "id": 10146,
         "image": "book.png"
-    },
-    {
-        "hanzi": "狗",
-        "meaning": "Dog",
-        "pinyin": "gǒu",
-        "id": 10147,
-        "image": "dog.png"
-    },
-    {
-        "hanzi": "水果",
-        "meaning": "Fruit",
-        "pinyin": "shuǐguǒ",
-        "id": 10148,
-        "image": "fruit.png"
-    },
-    {
-        "hanzi": "衣服",
-        "meaning": "Clothes",
-        "pinyin": "yīfú",
-        "id": 10164,
-        "image": "clothes.png"
     },
     {
         "hanzi": "哪",

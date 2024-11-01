@@ -1,9 +1,12 @@
-import pinyin_jyutping
-import json
-import sys
-import os
 import genanki
+import json
 import logging
+import os
+import pinyin_jyutping
+import subprocess
+import sys
+import time
+import urllib.parse
 
 logger = logging.getLogger(__name__)
 
@@ -46,6 +49,34 @@ max-width: 50vw;
 }
 
 """
+
+def download_audio_files():
+    data_filepath = sys.argv[1]
+    audio_directory = sys.argv[2]
+
+    with open(data_filepath) as f:
+        data = json.load(f)
+   
+    if not os.path.isdir(audio_directory):
+        os.mkdir(audio_directory)
+
+    for entry in data:
+        hanzi = entry['hanzi']
+        identifier = entry['id'] 
+        audio_filename = f"{identifier}.mp3"
+        audio_filepath = f"{audio_directory}/{audio_filename}"
+
+        if os.path.isfile(audio_filepath):
+            continue
+        
+        print(f"downloading audio for {hanzi}")
+
+        url_params = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "zh-CN", "q": hanzi})
+
+        subprocess.run(["wget", f"https://translate.google.com/translate_tts?{url_params}", "-O", audio_filepath], check=True)
+
+        time.sleep(5)
+
 
 def pinyinfy():
     data_filepath = sys.argv[1]
