@@ -150,7 +150,10 @@ def make_deck():
         identifier = entry['id']
         fields = [hanzi, entry["pinyin"], entry["meaning"], f"[sound:{identifier}.mp3]"]
         image_name = entry.get("image", "") 
-        image_field = f"<img src=\"{image_name}\"/>"
+        if image_name:
+            image_field = f"<img src=\"{image_name}\"/>"
+        else:
+            image_field = ""
         fields.append(image_field)
 
 
