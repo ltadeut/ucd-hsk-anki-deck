@@ -47,7 +47,6 @@ max-width: 50vw;
 
 def pinyinfy():
     data_filepath = sys.argv[1]
-    output_filepath = sys.argv[2]
 
     with open(data_filepath) as f:
         data = json.load(f)
@@ -61,7 +60,7 @@ def pinyinfy():
             entry['pinyin'] = p.pinyin(hanzi)
 
 
-    with open(output_filepath, "wt") as f:
+    with open(data_filepath, "wt") as f:
         f.write(json.dumps(data, indent=4, ensure_ascii=False))
 
 
