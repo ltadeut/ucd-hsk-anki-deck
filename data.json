@@ -10,7 +10,7 @@
         "hanzi": "心",
         "meaning": "Heart",
         "pinyin": "xīn",
-        "image": "",
+        "image": "heart.png",
         "id": 10001
     },
     {
@@ -136,7 +136,8 @@
         "hanzi": "男",
         "meaning": "male",
         "pinyin": "nán",
-        "id": 10019
+        "id": 10019,
+        "image": "male.png"
     },
     {
         "hanzi": "子",
@@ -149,91 +150,106 @@
         "hanzi": "茶",
         "meaning": "Tea",
         "pinyin": "chá",
-        "id": 10021
+        "id": 10021,
+        "image": "tea.png"
     },
     {
         "hanzi": "可乐",
         "meaning": "Cola (as in Coke)",
         "pinyin": "kělè",
-        "id": 10022
+        "id": 10022,
+        "image": "coke.png"
     },
     {
         "hanzi": "咖啡",
         "meaning": "Coffee",
         "pinyin": "kāfēi",
-        "id": 10023
+        "id": 10023,
+        "image": "coffee.png"
     },
     {
         "hanzi": "酒",
         "meaning": "Alcohol",
         "pinyin": "jiǔ",
-        "id": 10024
+        "id": 10024,
+        "image": "alcohol.png"
     },
     {
         "hanzi": "芒果",
         "meaning": "Mango",
         "pinyin": "mángguǒ",
-        "id": 10025
+        "id": 10025,
+        "image": "mango.png"
     },
     {
         "hanzi": "一",
         "meaning": "One",
         "pinyin": "yī",
-        "id": 10026
+        "id": 10026,
+        "image": "one.png"
     },
     {
         "hanzi": "二",
         "meaning": "Two",
         "pinyin": "èr",
-        "id": 10027
+        "id": 10027,
+        "image": "two.png"
     },
     {
         "hanzi": "三",
         "meaning": "Three",
         "pinyin": "sān",
-        "id": 10028
+        "id": 10028,
+        "image": "three.png"
     },
     {
         "hanzi": "四",
         "meaning": "Four",
         "pinyin": "sì",
-        "id": 10029
+        "id": 10029,
+        "image": "four.png"
     },
     {
         "hanzi": "五",
         "meaning": "Five",
         "pinyin": "wǔ",
-        "id": 10030
+        "id": 10030,
+        "image": "five.png"
     },
     {
         "hanzi": "六",
         "meaning": "Six",
         "pinyin": "liù",
-        "id": 10031
+        "id": 10031,
+        "image": "six.png"
     },
     {
         "hanzi": "七",
         "meaning": "Seven",
         "pinyin": "qī",
-        "id": 10032
+        "id": 10032,
+        "image": "seven.png"
     },
     {
         "hanzi": "八",
         "meaning": "Eight",
         "pinyin": "bā",
-        "id": 10033
+        "id": 10033,
+        "image": "eight.png"
     },
     {
         "hanzi": "九",
         "meaning": "Nine",
         "pinyin": "jiǔ",
-        "id": 10034
+        "id": 10034,
+        "image": "nine.png"
     },
     {
         "hanzi": "十",
         "meaning": "Ten",
         "pinyin": "shí",
-        "id": 10035
+        "id": 10035,
+        "image": "ten.png"
     },
     {
         "hanzi": "北京",
@@ -295,7 +311,8 @@
         "hanzi": "你好",
         "meaning": "hello",
         "pinyin": "nǐhǎo",
-        "id": 10044
+        "id": 10044,
+        "image": "hello.png"
     },
     {
         "hanzi": "您好",
@@ -329,31 +346,36 @@
         "hanzi": "谢谢",
         "meaning": "Thanks",
         "pinyin": "xièxie",
-        "id": 10049
+        "id": 10049,
+        "image": "thanks.png"
     },
     {
         "hanzi": "谢谢你",
         "meaning": "Thank you",
         "pinyin": "xièxie nǐ",
-        "id": 10050
+        "id": 10050,
+        "image": "thank_you.png"
     },
     {
         "hanzi": "不谢",
         "meaning": "It's fine (answer to thank you)",
         "pinyin": "búxiè",
-        "id": 10051
+        "id": 10051,
+        "image": "itsfine.png"
     },
     {
         "hanzi": "不用谢",
         "meaning": "You're welcome",
         "pinyin": "búyòngxiè",
-        "id": 10052
+        "id": 10052,
+        "image": "youre_welcome.png"
     },
     {
         "hanzi": "不客气",
         "meaning": "You're welcome",
         "pinyin": "bú kèqi",
-        "id": 10053
+        "id": 10053,
+        "image": "youre_welcome2.png"
     },
     {
         "hanzi": "对不起",
@@ -366,25 +388,29 @@
         "hanzi": "没关系",
         "meaning": "It's OK, it doesn't matter",
         "pinyin": "méiguānxi",
-        "id": 10055
+        "id": 10055,
+        "image": "itsokay.png"
     },
     {
         "hanzi": "没事儿",
         "meaning": "It's OK",
         "pinyin": "méishìer",
-        "id": 10056
+        "id": 10056,
+        "image": "itsokay2.png"
     },
     {
         "hanzi": "我",
         "meaning": "I",
         "pinyin": "wǒ",
-        "id": 10057
+        "id": 10057,
+        "image": "i.png"
     },
     {
         "hanzi": "很",
         "meaning": "Very",
         "pinyin": "hěn",
-        "id": 10058
+        "id": 10058,
+        "image": "very.png"
     },
     {
         "hanzi": "不",
@@ -411,37 +437,43 @@
         "hanzi": "吗",
         "meaning": "Particle indicating a question",
         "pinyin": "mǎ",
-        "id": 10062
+        "id": 10062,
+        "image": "questionmark.png"
     },
     {
         "hanzi": "也",
         "meaning": "Also",
         "pinyin": "yě",
-        "id": 10063
+        "id": 10063,
+        "image": "also.png"
     },
     {
         "hanzi": "你呢",
         "meaning": "How about you?",
         "pinyin": "nǐ ne",
-        "id": 10064
+        "id": 10064,
+        "image": "hbu.png"
     },
     {
         "hanzi": "他",
         "meaning": "He, him",
         "pinyin": "tā",
-        "id": 10065
+        "id": 10065,
+        "image": "he.png"
     },
     {
         "hanzi": "她",
         "meaning": "She, her",
         "pinyin": "tā",
-        "id": 10066
+        "id": 10066,
+        "image": "she.png"
     },
     {
         "hanzi": "是",
         "meaning": "To be, is",
         "pinyin": "shì",
-        "id": 10067
+        "id": 10067,
+        "image": "is.png"
     },
     {
         "hanzi": "老师",
@@ -461,91 +493,106 @@
         "hanzi": "叫",
         "meaning": "Call (how something is called)",
         "pinyin": "jiào",
-        "id": 10070
+        "id": 10070,
+        "image": "jiao.png"
     },
     {
         "hanzi": "什么",
         "meaning": "What",
         "pinyin": "shénme",
-        "id": 10071
+        "id": 10071,
+        "image": "what.png"
     },
     {
         "hanzi": "名字",
         "meaning": "Name",
         "pinyin": "míngzi",
-        "id": 10072
+        "id": 10072,
+        "image": "name.png"
     },
     {
         "hanzi": "姓",
         "meaning": "Surname",
         "pinyin": "xìng",
-        "id": 10073
+        "id": 10073,
+        "image": "surname.png"
     },
     {
         "hanzi": "先生",
         "meaning": "Sir",
         "pinyin": "xiānsheng",
-        "id": 10074
+        "id": 10074,
+        "image": "sir.png"
     },
     {
         "hanzi": "女士",
         "meaning": "Lady",
         "pinyin": "nǚshì",
-        "id": 10075
+        "id": 10075,
+        "image": "lady.png"
     },
     {
         "hanzi": "早上好",
         "meaning": "Good (early) morning",
         "pinyin": "zǎoshanghǎo",
-        "id": 10076
+        "id": 10076,
+        "image": "goodearlymorning.png"
     },
     {
         "hanzi": "上午好",
         "meaning": "Good morning",
         "pinyin": "shàngwǔhǎo",
-        "id": 10077
+        "id": 10077,
+        "image": "goodmorning.png"
     },
     {
         "hanzi": "中午好",
         "meaning": "Good noon",
         "pinyin": "zhōngwǔhǎo",
-        "id": 10078
+        "id": 10078,
+        "image": "goodnoon.png"
     },
     {
         "hanzi": "下午好",
         "meaning": "Good afternoon",
         "pinyin": "xiàwǔhǎo",
-        "id": 10079
+        "id": 10079,
+        "image": "goodafternoon.png"
     },
     {
         "hanzi": "晚上好",
         "meaning": "Good evening",
         "pinyin": "wǎnshanghǎo",
-        "id": 10080
+        "id": 10080,
+        "image": "goodevening.png"
     },
     {
         "hanzi": "晚安",
         "meaning": "Good night",
         "pinyin": "wǎnān",
-        "id": 10081
+        "id": 10081,
+        "image": "goodnight.png"
     },
     {
         "hanzi": "最近",
         "meaning": "Lately",
         "pinyin": "Zuìjìn",
-        "id": 10082
+        "id": 10082,
+        "image": "lately.png"
     },
     {
         "hanzi": "今天",
         "meaning": "Today",
         "pinyin": "jīntiān",
-        "id": 10083
+        "id": 10083,
+        "image": "today.png"
     },
     {
         "hanzi": "喜欢",
         "meaning": "To like",
         "pinyin": "xǐhuan",
-        "id": 10084
+        "id": 10084,
+        "image": "like.png"
     },
     {
         "hanzi": "火锅",
@@ -670,372 +717,434 @@
         "hanzi": "你好吗",
         "meaning": "How are you?",
         "pinyin": "nǐhǎo mǎ",
-        "id": 10102
+        "id": 10102,
+        "image": "hru.png"
     },
     {
         "hanzi": "小",
         "meaning": "Small",
         "pinyin": "xiǎo",
-        "id": 10103
+        "id": 10103,
+        "image": "small.png"
     },
     {
         "hanzi": "我今天很忙，也很累",
         "meaning": "I'm very busy today, I'm also very tired.",
         "pinyin": "wǒ jīntiān hěn máng ， yě hěn lěi",
-        "id": 10104
+        "id": 10104,
+        "image": "busyandtired.png"
     },
     {
         "hanzi": "你叫什么名字？我叫李月。",
         "meaning": "What is your name? My name is Lǐ Yuè.",
         "pinyin": "nǐ jiào shénme míngzi ？ wǒ jiào lǐyuè 。",
-        "id": 10105
+        "id": 10105,
+        "image": ""
     },
     {
         "hanzi": "你姓什么？我姓李。",
         "meaning": "What is your surname? My surname is Lǐ",
         "pinyin": "nǐ xìng shénme ？ wǒ xìnglǐ 。",
-        "id": 10106
+        "id": 10106,
+        "image": ""
     },
     {
         "hanzi": "她叫Kitty吗？他不叫Kitty。他叫Kelly。",
         "meaning": "Is her name Kitty? No, her name isn't Kitty. Her name is Kelly.",
         "pinyin": "tā jiào Kitty mǎ ？ tā bú jiào Kitty 。 tā jiào Kelly 。",
-        "id": 10107
+        "id": 10107,
+        "image": ""
     },
     {
         "hanzi": "他不是英国人。他是美国人。",
         "meaning": "He isn't from the UK. He's from the USA.",
         "pinyin": "tā búshì yīngguórén 。 tā shì měiguó rén 。",
-        "id": 10108
+        "id": 10108,
+        "image": ""
     },
     {
         "hanzi": "她是学生吗？她不是学生，她是老师。",
         "meaning": "Is she a student? No, she isn't. She's a teacher.",
         "pinyin": "tā shì xuésheng mǎ ？ tā búshì xuésheng ， tā shì lǎoshī 。",
-        "id": 10109
+        "id": 10109,
+        "image": ""
     },
     {
         "hanzi": "我喜欢作家鲁迅，我不喜欢下雨。",
         "meaning": "I like the author Lu Xun, I don't like rain.",
         "pinyin": "wǒ xǐhuan zuòjiā lǔxùn ， wǒ bù xǐhuan xiàyǔ 。",
-        "id": 10110
+        "id": 10110,
+        "image": ""
     },
     {
         "hanzi": "的",
         "meaning": "Particle indicating possession.",
         "pinyin": "de",
-        "id": 10111
+        "id": 10111,
+        "image": "de_mine.png"
     },
     {
         "hanzi": "我喜欢你的衣服。",
         "meaning": "I like your clothes.",
         "pinyin": "wǒ xǐhuan nǐ de yīfu 。",
-        "id": 10112
+        "id": 10112,
+        "image": ""
     },
     {
         "hanzi": "歌",
         "meaning": "Song",
         "pinyin": "gē",
-        "id": 10113
+        "id": 10113,
+        "image": "song.png"
     },
     {
         "hanzi": "她是谁？她是妹妹。",
         "meaning": "Who is she? She's Méi Méi (nickname for Tailor Swift)",
         "pinyin": "tā shì shéi ？ tā shì mèimei 。",
-        "id": 10114
+        "id": 10114,
+        "image": ""
     },
     {
         "hanzi": "爸爸",
         "meaning": "Dad",
         "pinyin": "bàba",
-        "id": 10115
+        "id": 10115,
+        "image": "dad.png"
     },
     {
         "hanzi": "妈妈",
         "meaning": "Mom",
         "pinyin": "māma",
-        "id": 10116
+        "id": 10116,
+        "image": "mom.png"
     },
     {
         "hanzi": "哥哥",
         "meaning": "Elder brother",
         "pinyin": "gēge",
-        "id": 10117
+        "id": 10117,
+        "image": "olderbrother.png"
     },
     {
         "hanzi": "姐姐",
         "meaning": "Elder sister",
         "pinyin": "jiějie",
-        "id": 10118
+        "id": 10118,
+        "image": "oldersister.png"
     },
     {
         "hanzi": "弟弟",
         "meaning": "Younger brother",
         "pinyin": "dìdi",
-        "id": 10119
+        "id": 10119,
+        "image": "youngerbrother.png"
     },
     {
         "hanzi": "妹妹",
         "meaning": "Younger sister",
         "pinyin": "mèimei",
-        "id": 10120
+        "id": 10120,
+        "image": "youngersister.png"
     },
     {
         "hanzi": "奶奶",
         "meaning": "Grandmother (on dad's side)",
         "pinyin": "nǎinai",
-        "id": 10121
+        "id": 10121,
+        "image": "grandmother_dad.png"
     },
     {
         "hanzi": "爷爷",
         "meaning": "Grandfather (on dad's side)",
         "pinyin": "yéye",
-        "id": 10122
+        "id": 10122,
+        "image": "grandfather_dad.png"
     },
     {
         "hanzi": "外公",
         "meaning": "Grandfather (on mom's side)",
         "pinyin": "wàigōng",
-        "id": 10123
+        "id": 10123,
+        "image": "grandfather_mom.png"
     },
     {
         "hanzi": "外婆",
         "meaning": "Grandmother (on mom's side)",
         "pinyin": "wàipó",
-        "id": 10124
+        "id": 10124,
+        "image": "grandmother_mom.png"
     },
     {
         "hanzi": "儿子",
         "meaning": "Son",
         "pinyin": "érzi",
-        "id": 10125
+        "id": 10125,
+        "image": ""
     },
     {
         "hanzi": "女儿",
         "meaning": "Daughter",
         "pinyin": "nǚ'ér",
-        "id": 10126
+        "id": 10126,
+        "image": ""
     },
     {
         "hanzi": "家人",
         "meaning": "Family",
         "pinyin": "jiã rén",
-        "id": 10127
+        "id": 10127,
+        "image": "family.png"
     },
     {
         "hanzi": "这",
         "meaning": "This",
         "pinyin": "zhè",
-        "id": 10160
+        "id": 10160,
+        "image": "this.png"
     },
     {
         "hanzi": "这是我（的）外婆。",
         "meaning": "This is my grandmother.",
         "pinyin": "zhè shì wǒ (de) wàipó",
-        "id": 10161
+        "id": 10161,
+        "image": ""
     },
     {
         "hanzi": "那",
         "meaning": "That",
         "pinyin": "nà",
-        "id": 10162
+        "id": 10162,
+        "image": "that.png"
     },
     {
         "hanzi": "哪是我（的）弟弟。",
         "meaning": "That is my younger brother.",
         "pinyin": "nà shì wǒ (de) dìdì ",
-        "id": 10163
+        "id": 10163,
+        "image": ""
     },
     {
         "hanzi": "同事",
         "meaning": "Workmate",
         "pinyin": "tóngshì",
-        "id": 10128
+        "id": 10128,
+        "image": "workmate.png"
     },
     {
         "hanzi": "同学",
         "meaning": "Classmate",
         "pinyin": "tóngxué",
-        "id": 10129
+        "id": 10129,
+        "image": "classmate.png"
     },
     {
         "hanzi": "朋友",
         "meaning": "Friend",
         "pinyin": "péngyǒu",
-        "id": 10130
+        "id": 10130,
+        "image": "friend.png"
     },
     {
         "hanzi": "男朋友",
         "meaning": "Boyfriend",
         "pinyin": "nánpéngyǒu",
-        "id": 10131
+        "id": 10131,
+        "image": "boyfriend.png"
     },
     {
         "hanzi": "女朋友",
         "meaning": "Girlfriend",
         "pinyin": "nǚpéngyǒu",
-        "id": 10132
+        "id": 10132,
+        "image": "girlfriend.png"
     },
     {
         "hanzi": "他是谁？他是我(的)同学。",
         "meaning": "Who is he? He's my classmate.",
         "pinyin": "tā shì shéi ？ tā shì wǒ ( de ) tóngxué 。",
-        "id": 10133
+        "id": 10133,
+        "image": ""
     },
     {
         "hanzi": "中文",
         "meaning": "Chinese language (written)",
         "pinyin": "zhōngwén",
-        "id": 10134
+        "id": 10134,
+        "image": "chinese_writte.png"
     },
     {
         "hanzi": "汉语",
         "meaning": "Chinese language (spoken)",
         "pinyin": "hán yǔ",
-        "id": 10135
+        "id": 10135,
+        "image": "chinese_spoken.png"
     },
     {
         "hanzi": "普通话",
         "meaning": "Mandarin",
         "pinyin": "pǔtōnghuà",
-        "id": 10136
+        "id": 10136,
+        "image": ""
     },
     {
         "hanzi": "她是我（的）中文老师。",
         "meaning": "She's my Chinese teacher",
         "pinyin": "tā shì wǒ （ de ） zhōngwén lǎoshī 。",
-        "id": 10137
+        "id": 10137,
+        "image": ""
     },
     {
         "hanzi": "英语",
         "meaning": "English (language)",
         "pinyin": "yīng yǔ",
-        "id": 10138
+        "id": 10138,
+        "image": "english_lang.png"
     },
     {
         "hanzi": "德语",
         "meaning": "German (language)",
         "pinyin": "dé yǔ",
-        "id": 10139
+        "id": 10139,
+        "image": "germany_flag.png"
     },
     {
         "hanzi": "法语",
         "meaning": "French (language)",
         "pinyin": "法语",
-        "id": 10140
+        "id": 10140,
+        "image": "france_flag.png"
     },
     {
         "hanzi": "爱尔兰语",
         "meaning": "Irish (language)",
         "pinyin": "àiěrlán yǔ",
-        "id": 10141
+        "id": 10141,
+        "image": "ireland_flag.png"
     },
     {
         "hanzi": "西班牙语",
         "meaning": "Spanish (language)",
         "pinyin": "xībānyá yǔ",
-        "id": 10142
+        "id": 10142,
+        "image": "spanish_flag.png"
     },
     {
         "hanzi": "意大利",
         "meaning": "Italian (language)",
         "pinyin": "yìdàlì yǔ",
-        "id": 10143
+        "id": 10143,
+        "image": "italian_flag.png"
     },
     {
         "hanzi": "葡萄牙语",
         "meaning": "Portuguese (language)",
         "pinyin": "pútáoyá yǔ",
-        "id": 10144
+        "id": 10144,
+        "image": ""
     },
     {
         "hanzi": "阿拉伯语",
         "meaning": "Arabic (language)",
         "pinyin": "ālābó yǔ",
-        "id": 10145
+        "id": 10145,
+        "image": ""
     },
     {
         "hanzi": "书",
         "meaning": "Book",
         "pinyin": "shū",
-        "id": 10146
+        "id": 10146,
+        "image": "book.png"
     },
     {
         "hanzi": "狗",
         "meaning": "Dog",
         "pinyin": "gǒu",
-        "id": 10147
+        "id": 10147,
+        "image": "dog.png"
     },
     {
         "hanzi": "水果",
         "meaning": "Fruit",
         "pinyin": "shuǐguǒ",
-        "id": 10148
+        "id": 10148,
+        "image": "fruit.png"
     },
     {
         "hanzi": "哪",
         "meaning": "Which",
         "pinyin": "nǎ",
-        "id": 10149
+        "id": 10149,
+        "image": ""
     },
     {
         "hanzi": "本",
         "meaning": "Measure word for books",
         "pinyin": "běn",
-        "id": 10150
+        "id": 10150,
+        "image": ""
     },
     {
         "hanzi": "个",
         "meaning": "General measure word",
         "pinyin": "gè",
-        "id": 10151
+        "id": 10151,
+        "image": ""
     },
     {
         "hanzi": "种",
         "meaning": "Kind (used in conjunction with 哪)",
         "pinyin": "zhǒng",
-        "id": 10152
+        "id": 10152,
+        "image": ""
     },
     {
         "hanzi": "你喜欢哪种水果？",
         "meaning": "Which kind of fruit do you like?",
         "pinyin": "nǐ xǐhuan nǎzhǒng shuǐguǒ ？",
-        "id": 10153
+        "id": 10153,
+        "image": ""
     },
     {
         "hanzi": "你喜欢哪种书？",
         "meaning": "Which kind of book do you like?",
         "pinyin": "nǐ xǐhuan nǎzhǒng shū ？",
-        "id": 10154
+        "id": 10154,
+        "image": ""
     },
     {
         "hanzi": "你喜欢哪本书？",
         "meaning": "Which book do you like?",
         "pinyin": "nǐ xǐhuan nǎ běnshū ？",
-        "id": 10155
+        "id": 10155,
+        "image": ""
     },
     {
         "hanzi": "你喜欢那个人？",
         "meaning": "Which person do you like?",
         "pinyin": "nǐ xǐhuan nàge rén ？",
-        "id": 10156
+        "id": 10156,
+        "image": ""
     },
     {
         "hanzi": "演员",
         "meaning": "Actor",
         "pinyin": "yǎnyuán",
-        "id": 10157
+        "id": 10157,
+        "image": "actor.png"
     },
     {
         "hanzi": "吃",
         "meaning": "Eat",
         "pinyin": "chī",
-        "id": 10158
+        "id": 10158,
+        "image": "eat.png"
     },
     {
         "hanzi": "你好朋友喜欢吃什么？",
         "meaning": "What does your friend like to eat?",
         "pinyin": "nǐhǎo péngyou xǐhuan chī shénme ？",
-        "id": 10159
+        "id": 10159,
+        "image": ""
     }
 ]
