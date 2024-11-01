@@ -7,6 +7,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+VERSION = "1.0.1"
+
 CSS="""
 
 hr {
@@ -129,7 +131,7 @@ def make_deck():
         css=CSS
     )
 
-    deck = genanki.Deck(1337, name="UCD HSK 1.1 Vocab V1.0.1")
+    deck = genanki.Deck(1337, name="UCD HSK 1.1 Vocab")
 
     # Generate the notes
     with open(data_filepath) as f:
@@ -162,5 +164,5 @@ def make_deck():
 
     pkg = genanki.Package(deck)
     pkg.media_files = media_files
-    filename = deck.name.replace(' ', '.')
+    filename = (deck.name + " " + VERSION).replace(' ', '.')
     pkg.write_to_file(f"{filename}.apkg")
