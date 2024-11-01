@@ -3,6 +3,9 @@ import json
 import sys
 import os
 import genanki
+import logging
+
+logger = logging.getLogger(__name__)
 
 CSS="""
 
