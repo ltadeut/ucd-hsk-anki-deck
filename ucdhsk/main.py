@@ -51,9 +51,11 @@ def pinyinfy():
 
     p = pinyin_jyutping.PinyinJyutping()
     for entry in data:
-        word = entry['word']
-        del entry['reading']
-        entry['pinyin'] = p.pinyin(word)
+        hanzi = entry['hanzi']
+
+        pinyin = entry.get('pinyin')
+        if not pinyin:
+            entry['pinyin'] = p.pinyin(hanzi)
 
 
     with open(output_filepath, "wt") as f:
@@ -92,7 +94,7 @@ def make_deck():
         31894723897492,
         name="UCD HSK 1.1",
         fields=[
-            {'name': "Word"},
+            {'name': "Hanzi"},
             {'name': "Pinyin"},
             {'name': "Meaning"},
             {'name': "Sound"},
@@ -101,7 +103,7 @@ def make_deck():
         templates=[
             {
                 "name": "Standard",
-                "qfmt": "<span class=\"hanzi\">{{Word}}</span>",
+                "qfmt": "<span class=\"hanzi\">{{Hanzi}}</span>",
                 "afmt": """{{FrontSide}}
                 <hr id=\"answer\">
                 <div class=\"pinyin\">{{Pinyin}}</div>
@@ -137,8 +139,9 @@ def make_deck():
             media_files.append(entry_path)
 
     for entry in data:
-        word = entry["word"]
-        fields = [word, entry["pinyin"], entry["meaning"], f"[sound:{word}.mp3]"]
+        hanzi = entry["hanzi"]
+        identifier = entry['id']
+        fields = [hanzi, entry["pinyin"], entry["meaning"], f"[sound:{identifier}.mp3]"]
         image_filepath = entry.get("image") 
 
         image_field = ""
