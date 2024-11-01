@@ -72,19 +72,24 @@ class MyNote(genanki.Note):
 
 def check_images():
     data_filepath = sys.argv[1]
-
+    image_directory = sys.argv[2]
 
     # Generate the notes
     with open(data_filepath) as f:
         data = json.load(f)
 
     for entry in data:
-        image_filepath = entry.get('image')
-        if not image_filepath:
-            continue
+        image_name = entry.get('image')
+        if not image_name:
+            image_name = input(f"Image name for {entry['hanzi']} - {entry['meaning']}: ")
+            entry['image'] = image_name.strip()
 
+        image_filepath = f"{image_directory}/{image_name}"
         if not os.path.isfile(image_filepath):
-            input(f"missing file {image_filepath}...")
+            logger.error("missing image for %s (id=%d): %s", entry['hanzi'], entry['id'], image_name)
+
+        with open(data_filepath, "wt") as f:
+            f.write(json.dumps(data, indent=4, ensure_ascii=False))
 
 
 def make_deck():
