@@ -129,7 +129,7 @@ def make_deck():
         css=CSS
     )
 
-    deck = genanki.Deck(1337, name="UCD HSK 1.1 Vocab - V1")
+    deck = genanki.Deck(1337, name="UCD HSK 1.1 Vocab - V1.0.1")
 
     # Generate the notes
     with open(data_filepath) as f:
@@ -149,12 +149,8 @@ def make_deck():
         hanzi = entry["hanzi"]
         identifier = entry['id']
         fields = [hanzi, entry["pinyin"], entry["meaning"], f"[sound:{identifier}.mp3]"]
-        image_filepath = entry.get("image") 
-
-        image_field = ""
-        if image_filepath:
-            _, _, image_name = image_filepath.partition("/")
-            image_field = f"<img src=\"{image_name}\"/>"
+        image_name = entry.get("image", "") 
+        image_field = f"<img src=\"{image_name}\"/>"
         fields.append(image_field)
 
 
@@ -163,4 +159,5 @@ def make_deck():
 
     pkg = genanki.Package(deck)
     pkg.media_files = media_files
-    pkg.write_to_file(f"{deck.name}.apkg")
+    filename = deck.name.replace(' ', '.')
+    pkg.write_to_file(f"{filename}.apkg")
