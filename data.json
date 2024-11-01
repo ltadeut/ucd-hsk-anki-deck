@@ -1071,6 +1071,13 @@
         "image": "fruit.png"
     },
     {
+        "hanzi": "衣服",
+        "meaning": "Clothes",
+        "pinyin": "yīfú",
+        "id": 10164,
+        "image": "clothes.png"
+    },
+    {
         "hanzi": "哪",
         "meaning": "Which",
         "pinyin": "nǎ",
