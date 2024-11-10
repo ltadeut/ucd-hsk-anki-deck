@@ -16,7 +16,6 @@ CSS="""
 
 hr {
  height: 3px;
- border: none;
  margin-top: 20px;
  margin-bottom: 20px;
 }
@@ -28,6 +27,12 @@ hr {
  margin-top: 20px;
 }
 
+.hanzi-smaller {
+ font-family: Kai;  
+ font-size: 2rem;
+ margin-top: 20px;
+}
+
 .pinyin {
  font-family: Palatino; 
  font-size: 2rem; 
@@ -36,7 +41,6 @@ hr {
 
 .card {
   padding: 1rem;
-  text-align: center;
 }
 
 img {
@@ -80,7 +84,7 @@ def download_audio_files():
 
             if not os.path.isfile(audio_filepath):
                 print(f"downloading audio for sentence {sentence}")
-                url_params = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "zh-CN", "q": word})
+                url_params = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "zh-CN", "q": sentence})
                 subprocess.run(["wget", f"https://translate.google.com/translate_tts?{url_params}", "-O", audio_filepath], check=True)
 
                 time.sleep(5)
@@ -178,16 +182,16 @@ def make_deck():
                 "qfmt": """<span class=\"hanzi\">{{Word}}</span><br>
                 {{#Sentence}}
                 <hr id=\"answer\">
-                <span class=\"hanzi\">{{Sentence}}</span><br>
+                <span class=\"hanzi-smaller\">{{Sentence}}</span><br>
                 {{/Sentence}}
                 """,
                 "afmt": """<span class=\"hanzi\">{{Word}}</span><br>
                 <div class=\"pinyin\">{{WordPinyin}}</div><br>
                 {{WordMeaning}}<br>
-                {{WordSound}} 
+                {{WordSound}} <br>
                 {{#Sentence}}
                 <hr id=\"answer\">
-                <span class=\"hanzi\">{{Sentence}}</span><br>
+                <span class=\"hanzi-smaller\">{{Sentence}}</span><br>
                 <div class=\"pinyin\">{{SentencePinyin}}</div><br>
                 {{SentenceMeaning}}<br>
                 {{SentenceSound}}
