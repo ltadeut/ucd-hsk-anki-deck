@@ -10,7 +10,7 @@ import urllib.parse
 
 logger = logging.getLogger(__name__)
 
-VERSION = "1.0.1"
+VERSION = "2.0.0"
 
 CSS="""
 
@@ -61,21 +61,45 @@ def download_audio_files():
         os.mkdir(audio_directory)
 
     for entry in data:
-        hanzi = entry['hanzi']
+        word = entry['word']
         identifier = entry['id'] 
         audio_filename = f"{identifier}.mp3"
         audio_filepath = f"{audio_directory}/{audio_filename}"
 
-        if os.path.isfile(audio_filepath):
-            continue
+        if not os.path.isfile(audio_filepath):
+            print(f"downloading audio for {word}")
+            url_params = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "zh-CN", "q": word})
+            subprocess.run(["wget", f"https://translate.google.com/translate_tts?{url_params}", "-O", audio_filepath], check=True)
         
-        print(f"downloading audio for {hanzi}")
+            time.sleep(5)
+        
+        sentence = entry.get('sentence')
+        if sentence:
+            audio_filename = f"{identifier}_sentence.mp3"
+            audio_filepath = f"{audio_directory}/{audio_filename}"
 
-        url_params = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "zh-CN", "q": hanzi})
+            if not os.path.isfile(audio_filepath):
+                print(f"downloading audio for sentence {sentence}")
+                url_params = urllib.parse.urlencode({"ie": "UTF-8", "client": "tw-ob", "tl": "zh-CN", "q": word})
+                subprocess.run(["wget", f"https://translate.google.com/translate_tts?{url_params}", "-O", audio_filepath], check=True)
 
-        subprocess.run(["wget", f"https://translate.google.com/translate_tts?{url_params}", "-O", audio_filepath], check=True)
+                time.sleep(5)
 
-        time.sleep(5)
+
+def reset_ids():
+    data_filepath = sys.argv[1]
+    identifier = 10000
+
+    with open(data_filepath) as f:
+        data = json.load(f)
+
+    p = pinyin_jyutping.PinyinJyutping()
+    for entry in data:
+        entry['id'] = identifier
+        identifier += 1
+
+    with open(data_filepath, "wt") as f:
+        f.write(json.dumps(data, indent=4, ensure_ascii=False, sort_keys=True))
 
 
 def pinyinfy():
@@ -86,15 +110,19 @@ def pinyinfy():
 
     p = pinyin_jyutping.PinyinJyutping()
     for entry in data:
-        hanzi = entry['hanzi']
-
-        pinyin = entry.get('pinyin')
+        word = entry['word']
+        pinyin = entry.get('word_pinyin')
         if not pinyin:
-            entry['pinyin'] = p.pinyin(hanzi)
+            entry['word_pinyin'] = p.pinyin(word)
 
+        if 'sentence' in entry:
+            sentence = entry['sentence']
+            pinyin = entry.get('sentence_pinyin')
+            if not pinyin:
+                entry['sentence_pinyin'] = p.pinyin(sentence)
 
     with open(data_filepath, "wt") as f:
-        f.write(json.dumps(data, indent=4, ensure_ascii=False))
+        f.write(json.dumps(data, indent=4, ensure_ascii=False, sort_keys=True))
 
 
 class MyNote(genanki.Note):
@@ -114,15 +142,15 @@ def check_images():
     for entry in data:
         image_name = entry.get('image')
         if not image_name:
-            image_name = input(f"Image name for {entry['hanzi']} - {entry['meaning']}: ")
+            image_name = input(f"Image name for {entry['word']} - {entry['meaning']}: ")
             entry['image'] = image_name.strip()
 
         image_filepath = f"{image_directory}/{image_name}"
         if not os.path.isfile(image_filepath):
-            logger.error("missing image for %s (id=%d): %s", entry['hanzi'], entry['id'], image_name)
+            logger.error("missing image for %s (id=%d): %s", entry['word'], entry['id'], image_name)
 
         with open(data_filepath, "wt") as f:
-            f.write(json.dumps(data, indent=4, ensure_ascii=False))
+            f.write(json.dumps(data, indent=4, ensure_ascii=False, sort_keys=True))
 
 
 def make_deck():
@@ -134,28 +162,37 @@ def make_deck():
         31894723897492,
         name="UCD HSK 1.1",
         fields=[
-            {'name': "Hanzi"},
-            {'name': "Pinyin"},
-            {'name': "Meaning"},
-            {'name': "Sound"},
+            {'name': "Word"},
+            {'name': "WordPinyin"},
+            {'name': "WordMeaning"},
+            {'name': "WordSound"},
+            {'name': "Sentence"},
+            {'name': "SentencePinyin"},
+            {'name': "SentenceMeaning"},
+            {'name': "SentenceSound"},
             {'name': "Image"},
         ],
         templates=[
             {
                 "name": "Standard",
-                "qfmt": "<span class=\"hanzi\">{{Hanzi}}</span>",
-                "afmt": """{{FrontSide}}
+                "qfmt": """<span class=\"hanzi\">{{Word}}</span><br>
+                {{#Sentence}}
                 <hr id=\"answer\">
-                <div class=\"pinyin\">{{Pinyin}}</div>
-                <br>
-
-                {{Meaning}}
-
+                <span class=\"hanzi\">{{Sentence}}</span><br>
+                {{/Sentence}}
+                """,
+                "afmt": """<span class=\"hanzi\">{{Word}}</span><br>
+                <div class=\"pinyin\">{{WordPinyin}}</div><br>
+                {{WordMeaning}}<br>
+                {{WordSound}} 
+                {{#Sentence}}
+                <hr id=\"answer\">
+                <span class=\"hanzi\">{{Sentence}}</span><br>
+                <div class=\"pinyin\">{{SentencePinyin}}</div><br>
+                {{SentenceMeaning}}<br>
+                {{SentenceSound}}
                 </br>
-                </br>
-                {{Sound}}
-                </br>
-                </br>
+                {{/Sentence}}
                 {{#Image}}{{Image}}{{/Image}}"""
             }
         ],
@@ -179,16 +216,33 @@ def make_deck():
             media_files.append(entry_path)
 
     for entry in data:
-        hanzi = entry["hanzi"]
+        word = entry["word"]
         identifier = entry['id']
-        fields = [hanzi, entry["pinyin"], entry["meaning"], f"[sound:{identifier}.mp3]"]
+        fields = [word, entry["word_pinyin"], entry["word_meaning"], f"[sound:{identifier}.mp3]"]
+
+        sentence = ""
+        sentence_pinyin = ""
+        sentence_meaning = ""
+        sentence_sound = ""
+        if 'sentence' in entry:
+            sentence = entry['sentence']
+            sentence_pinyin = entry['sentence_pinyin']
+            try:
+                sentence_meaning = entry['sentence_meaning']
+            except:
+                print(sentence)
+                raise
+
+            sentence_sound = f"[sound:{identifier}_sentence.mp3]"
+            
+        fields.extend([sentence,sentence_pinyin, sentence_meaning, sentence_sound])
+
         image_name = entry.get("image", "") 
         if image_name:
             image_field = f"<img src=\"{image_name}\"/>"
         else:
             image_field = ""
         fields.append(image_field)
-
 
         note = MyNote(model=model, fields=fields)
         deck.add_note(note)
