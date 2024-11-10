@@ -398,13 +398,6 @@
         "word_pinyin": "xièxie"
     },
     {
-        "id": 10053,
-        "image": "thank_you.png",
-        "word": "谢谢你",
-        "word_meaning": "Thank you",
-        "word_pinyin": "xièxie nǐ"
-    },
-    {
         "id": 10054,
         "image": "itsfine.png",
         "word": "不谢",
@@ -1043,41 +1036,6 @@
         "word_pinyin": "yīng yǔ"
     },
     {
-        "id": 10134,
-        "image": "germany_flag.png",
-        "word": "德语",
-        "word_meaning": "German (language)",
-        "word_pinyin": "dé yǔ"
-    },
-    {
-        "id": 10135,
-        "image": "france_flag.png",
-        "word": "法语",
-        "word_meaning": "French (language)",
-        "word_pinyin": "法语"
-    },
-    {
-        "id": 10136,
-        "image": "ireland_flag.png",
-        "word": "爱尔兰语",
-        "word_meaning": "Irish (language)",
-        "word_pinyin": "àiěrlán yǔ"
-    },
-    {
-        "id": 10137,
-        "image": "spain_flag.png",
-        "word": "西班牙语",
-        "word_meaning": "Spanish (language)",
-        "word_pinyin": "xībānyá yǔ"
-    },
-    {
-        "id": 10138,
-        "image": "italy_flag.png",
-        "word": "意大利语",
-        "word_meaning": "Italian (language)",
-        "word_pinyin": "yìdàlì yǔ"
-    },
-    {
         "id": 10139,
         "image": "",
         "sentence": "巴西人会说葡萄牙语",
@@ -1086,16 +1044,6 @@
         "word": "葡萄牙语",
         "word_meaning": "Portuguese (language)",
         "word_pinyin": "pútáoyá yǔ"
-    },
-    {
-        "id": 10140,
-        "image": "",
-        "sentence": "他会说阿拉伯语很好",
-        "sentence_meaning": "He speaks Arabic very well",
-        "sentence_pinyin": "tāhuì shuō ālābóyǔ hěn hǎo",
-        "word": "阿拉伯语",
-        "word_meaning": "Arabic (language)",
-        "word_pinyin": "ālābó yǔ"
     },
     {
         "id": 10141,
