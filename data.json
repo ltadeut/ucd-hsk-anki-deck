@@ -543,7 +543,7 @@
     {
         "id": 10073,
         "image": "jiao.png",
-        "sentence": "他叫Emma",
+        "sentence": "她叫Emma",
         "sentence_meaning": "Her name is Emma",
         "sentence_pinyin": "tā jiào Emma",
         "word": "叫",
@@ -861,7 +861,7 @@
     {
         "id": 10112,
         "image": "oldersister.png",
-        "sentence": "我有两节节",
+        "sentence": "我有两姐姐",
         "sentence_meaning": "I have two older sisters",
         "sentence_pinyin": "wǒ yǒu liǎngjié jié",
         "word": "姐姐",
