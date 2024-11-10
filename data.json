@@ -157,8 +157,9 @@
     {
         "id": 10017,
         "image": "bright.jpg",
-        "sentence": "My name is Gao Ziming",
-        "sentence_pinyin": "My   name   is   Gao   Ziming",
+        "sentence": "我叫高子明",
+        "sentence_meaning": "My name is Ziming Gao",
+        "sentence_pinyin": "wǒ jiào gāozimíng",
         "word": "明",
         "word_meaning": "bright",
         "word_pinyin": "míng"
@@ -983,8 +984,9 @@
     {
         "id": 10130,
         "image": "friend.png",
-        "sentence": "My best friend's name is Emre",
-        "sentence_pinyin": "My   best   friend ' s   name   is   Emre",
+        "sentence": "我好朋友叫Emre",
+        "sentence_meaning": "My best friend's name is Emre",
+        "sentence_pinyin": "wǒ hǎo péngyou jiào Emre",
         "word": "朋友",
         "word_meaning": "Friend",
         "word_pinyin": "péngyǒu"
